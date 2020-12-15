@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form Assignment</title>
+    </head>
+</html>
+<body> 
+    <h1>Form submission</h1>
+
+</body>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="Firstname" name="Firstname" placeholder="EnterName" value=""><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""placeholder="LastName"><br><br>
+    <label for="password">password:</label><br>
+    <input type="password" id="password" name="password"><br> 
+    <label for="confirm password">confirm password</label><br>
+    <input type="confirm password" id="confirm password" name="confirm password"><br>
+   
+    <label for="phone">Mobile Number:</label><br>
+    <input type="tel" id="Number" name="phone" placeholder="123-456-789-0" pattern="[0-9]{10}"><br><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>           
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="LikedGames">Liked Games:</label> 
+        <select name="LikedGames" id="LikedGames"> 
+          <option value="Football">Football</option>
+          <option value="Cricket">Cricket</option>
+          <option value="Kabbadi" selected>Kabadi</option>
+          <option value="Hockey">Hockey</option>
+        </select>
+        <br><br>
+        <input type="checkbox" id="checkbox" name="checkbox" value="">
+        <label for="Checkmark"> Is active</label><br> 
+        <p>click on submit button to save the details</p>
+        <input type="submit" value="Submit">
+    </form> 
