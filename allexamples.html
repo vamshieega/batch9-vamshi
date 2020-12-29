@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Conditional Logic</title>
+   
+</head>
+<body>
+  <h1>Conditional Logic</h1>
+ 
+<script>
+  /*if condition */  
+var a=12
+var b=11
+if(a==b){
+    console.log("True")
+} 
+else{
+    console.log("false")
+}
+  /*if , else ifcondition */  
+if(a==b){
+    console.log("True")
+} 
+else if(a>b)
+{
+    console.log("A is big")
+}
+else{
+    console.log("false")
+}
+
+/* For loop */ 
+for(i=0;i<=10;i++){
+    console.log(i)
+}
+/* while loop */
+
+var i = 0; var a=0;
+while (i < 13) {
+ a=1+i;
+  i++;
+ console.log( "valuye of a is ",a)
+} 
+
+/* Do while loop */ 
+
+var a=0;
+var i = 0;
+do {
+  a= 1+ i;
+  i++;
+}
+while (i < 5);{
+    
+console.log("value of i is",i)
+}
+/* switch case */
+
+var day;
+    switch (new Date().getDay()) {
+      case 0:
+        day = "Sunday";
+        break;
+      case 1:
+        day = "Monday";
+        break;
+      case 2:
+        day = "Tuesday";
+        break;
+      case 3:
+        day = "Wednesday";
+        break;
+      case 4:
+        day = "Thursday";
+        break;
+      case 5:
+        day = "Friday";
+        break;
+      case  6:
+        day = "Saturday";
+    }
+console.log(day)
+
+/* break statement */ 
+
+
+var i;
+var a;
+for (i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+   a = "the number is " +i
+   console.log(a) 
+} 
+
+/*continue statement  */
+
+
+var i;
+var a;
+for (i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+   a = "the number is" +i
+   console.log(a) 
+}
+
+/*  Object Creation */ 
+
+
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+
+var x = person;
+x.age = 10;
+
+console.log(person.firstName + " is " + person.age + " years old.")
+
+
+/* Array creation */
+
+var cars = ["Saab", "Volvo", "BMW"]; 
+cars.push("Kiwi");
+console.log(cars)   
+
+</script>
+</body>
+</html>
