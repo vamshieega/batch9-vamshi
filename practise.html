@@ -1,0 +1,106 @@
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript tutorials</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        </head>
+    <body>
+        <style>
+               .spanclass{
+                    color: red;
+                    font-size: 2rem;
+               } 
+
+        </style>
+        <h1 style="text-align: center;">
+            JAVASCRIPT
+        </h1>
+        
+        <h3>Tutorial </h3>
+
+        <span class="spanclass">span 1</span>
+        <span class="span">span 2</span>
+        <span class="spanclass">span 3</span>
+
+        <input id="firstname"  name="fname" placeholder="Enter First Name"/>
+        <input id="lastname"  name="lname" placeholder="Enter Last Name"/>
+            <table class="student" id="student">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Education</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>vamshi</td>
+                        <td>B tech</td>
+                        <td>23</td>
+                    </tr>
+
+                    <tr>
+                        <td>Shiva</td>
+                        <td>B.tech</td>
+                        <td>23</td>
+                    </tr>
+
+                    <tr>
+                        <td>Nakul</td>
+                        <td>Btech</td>
+                        <td>23</td>
+                    </tr>
+                </tbody>
+                </table>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>  
+                <input type="radio" id="male" name="gender" value="others">
+                <label for="others">Others</label><br>
+
+                <label> which background  :</label>
+                <select id="education" name="education">
+                    <option value="select">SELECT</option>
+                    <option value="bsc">Btech (Computer Science)</option>
+                    <option value="bca">MSC</option>
+                    <option value="msc">BCA (Computer Science)</option>
+                    <option value="mca">MCA</option>
+                </select>
+                <br>
+
+                <label>fresher : <input type="checkbox" id="mycheck"></label><br>
+                <label>Experience : <input type="checkbox" id="mycheck"></label><br>
+                <label>Pursuing : <input type="checkbox" id="mycheck"></label>
+                
+
+    </body>
+    
+    <script type="text/javascript">
+
+       $(".spanclass").each(function (){
+           if($(this).text() == "span 2"){
+               $(this).html("<b>" +$(this).text() + "</b>")
+           }
+       })
+
+       $("[type='radio']").val() //value of the radio button.
+
+       $("[type='male']").val("gents")  //change the value of the selected type.
+
+       $("[value='bca']").val() //this value changed but the value doesn't show. It will show undefined.
+
+       $("[id='mycheck']").val() //get the element in checkbox.
+
+       $("[id='mycheck']").val("single") //change the value in checkbox.
+
+       $("#firstname").val()    //get the elements in text box.
+
+       $("#firstname").val("vamshi")    //change the elements in textbox.
+
+
+    </script>
+    
+</html>
