@@ -1,0 +1,217 @@
+h2{
+       
+  color: green;
+} 
+ 
+.menu2{ 
+  position: static;
+  top: 0px;  
+}
+.EXERCISES{ 
+
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-align: center;
+  background-color: rgb(99, 96, 96);
+  color: white; 
+  font-size: 14px;
+} 
+
+th.product-subtotal {
+
+  font-weight: lighter;
+  font-size: 14px;
+ }
+  .button {
+     background-color: rgb(69, 163, 69); 
+     border: black;
+     color: white;
+     padding: 8px;
+     text-align: center;
+     display: inline-block;
+     font-size: 12px;
+     margin: 4px 2px;  
+   cursor: pointer;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   }
+   table {
+   border-collapse: collapse;
+   width: 100%;
+     text-align: center;
+   font-style: Fantasy;  
+ }
+   .button3 {border-radius: 6px;}
+    .button6{border-radius: 6px;
+    color: white;
+    background-color: green;
+
+  }   
+  
+nav {
+
+position: -webkit-sticky;
+position: sticky;
+top: 24px; 
+} 
+nav ul {
+float: left;
+width: 13%;
+height: 720px;
+background:rgb(173, 167, 167);
+padding: 15px;
+font-size: 18px;
+color:black;   
+transition: 2.5s;
+ margin: 0;
+ padding: 0;
+ overflow:auto ;
+} 
+aside {
+
+float: right;
+position: -webkit-sticky;
+position: sticky;
+top: 30px;
+overflow:auto;
+width: 15%;
+padding-left: 15px;
+height:650px;
+background-color: rgb(235, 224, 224);
+} 
+
+
+  footer {
+background-color: #777;
+padding: 0px;
+text-align: center;
+color: white;
+bottom:0px;
+position:fixed;
+width:100%;
+}
+
+.t1{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px; 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  background-color: violet;
+  color: white;
+  text-align: center;
+}  
+
+li a {
+  display: block;
+  text-align: left;
+  color:ivory;
+  padding: 5px;
+  text-decoration: none;
+}
+li a:hover {background-color: lightgreen;
+     } 
+     div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px;
+     
+       }      
+       .alignleft {
+        display: inline;
+        text-align:left;
+         
+      }
+     
+       .alignright {
+         margin-left: 49%;
+        display: inline;
+       text-align:left; 
+      }​ 
+
+      
+  .vams{
+    color: green;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  .menu{
+    display:none;
+  }
+  div.sticky1 { 
+    display:none
+     } 
+  div.sss{
+    display: none;
+  } 
+     
+ @media only screen and (max-width: 800px) {
+  body {
+    background-color: lightcyan;
+  }  
+  
+  
+  .alignleft{
+    display: none;
+  }
+  .good{
+         display: none;
+       } 
+   
+       div.sss{
+         display: block;
+       }
+  .good{
+    display: block;
+  }
+  
+  .menu2{ 
+    position: static;
+    top: 0px;  
+  }
+  div.sticky1 { 
+    background-color : rgb(79, 70, 70);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: block;
+    
+     } 
+     .alignright{
+       display: none;
+     }
+  .menu{ 
+    display:block;  
+  }
+  .menu1{ 
+    color: white;
+    margin-left: 0%;
+    background-color : rgb(79, 70, 70);
+  }
+  .modes{
+    display: none;
+  }
+  .t1{
+    display: none;
+  }
+  
+  th.product-subtotal {
+    display: none ;
+    font-weight: lighter;
+    font-size: 5px;
+   }
+   th.product-subtotal1 {  
+    font-size: 20px;
+   }
+   .EXERCISES{
+   display: none;   
+  }
+   }
+   
